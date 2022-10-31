@@ -15,14 +15,6 @@ main {
     justify-content: center;
 }
 
-.player_header {
-    color: blue;
-    font-size: 24px;
-    margin-top: 3px;
-
-
-}
-
 .contenar {
     background-color: #ffff;
     width: 870px;
@@ -32,10 +24,21 @@ main {
 
 }
 
+.player_header {
+    color: blue;
+    font-size: 24px;
+    margin-top: 3px;
+
+
+}
+
+
+
 .top_players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    margin-bottom: 30px;
 
 
 }
@@ -54,6 +57,41 @@ main {
 
 .player_name {
     margin-left: 16px;
+    font-size: 18px;
+}
+
+.hr {
+    border: 1px solid #D1D1D1;
+
 }
 
 /* fast section desigm start */
+
+
+/* top bloge  style start  */
+.bloges {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bloge {
+    display: flex;
+
+
+}
+
+.thumbnair img {
+    width: 177px;
+    height: 117px;
+}
+
+.bloge_info {}
+
+.bloge_athore a {
+    text-decoration: none;
+
+}
+
+
+
+/* top bloge  style end  */
