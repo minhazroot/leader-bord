@@ -12,7 +12,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contenar {
@@ -20,6 +21,8 @@ main {
     width: 870px;
     height: 679px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 10px;
 
 
 }
@@ -72,6 +75,12 @@ main {
 .bloges {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 16px;
+
+}
+
+.player_header {
+    font-size: 20px;
 }
 
 .bloge {
@@ -85,13 +94,68 @@ main {
     height: 117px;
 }
 
-.bloge_info {}
+.bloge_info {
+    margin-left: 15px;
+}
 
 .bloge_athore a {
     text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 
 }
 
-
+.bloge_info p {
+    color: grey;
+}
 
 /* top bloge  style end  */
+/* 
+cources style */
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.fa-star.fule {
+    color: gold;
+    font-size: 12px;
+}
+
+.fa-star-half-stroke {
+
+    color: gray;
+    font-size: 12px;
+
+}
+
+.cource_rating {
+    display: flex;
+}
+
+.cource_rating p {
+    margin-left: 10px;
+}
+
+.cource_duration {
+    margin-left: 10px;
+}
+
+.cource_duration span {
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #FFE4E8;
+
+}
+
+.courses {
+    display: flex;
+
+
+}
+
+.course {
+    margin-left: 36px;
+    background-color: #FFFFFF;
+}
